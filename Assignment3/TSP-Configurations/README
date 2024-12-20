@@ -1,0 +1,16 @@
+Traveling Salesman Problem (TSP) - Simulated Annealing
+
+This project implements the Traveling Salesman Problem (TSP) using the Simulated Annealing (SA) algorithm to find optimal solutions.
+It compares different cooling schedules (linear, geometric, and logarithmic) and the effect of Markov chain lengths (MCL) 
+on the algorithm's performance.
+
+This project requires several Python libraries to run efficiently:
+    pandas: Data manipulation and analysis library used for handling datasets.
+    matplotlib: Plotting library used for graphs.
+    numpy: Library for handling large arrays and numerical operations.
+    tsplib95: Library for working with TSP datasets in TSPLIB format.
+    random: For generating random numbers.
+    csv: Used to read and write CSV files for storing results.
+    time: For measuring execution time and controlling algorithm timing.
+    statistics: For calculating statistical measures such as mean and standard deviation.
+    IPython.display: Used for clearing outputs in Jupyter Notebooks.
